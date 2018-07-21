@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 mongoose.Promise = global.Promise; // use he global promise instead of
 
-before(()=>{
+before((done)=>{
     mongoose.connect('mongodb://localhost/user_test');
     mongoose.connection
         .once('open',()=> {done();})
