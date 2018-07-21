@@ -1,12 +1,17 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/user_test');
+mongoose.Promise = global.Promise; // use he global promise instead of
 
-mongoose.connection
-    .once('open',()=> console.log('Good to go!'))
-    .on('error', (error) => {
-        console.warn('Warning', error);
-    });
+before(()=>{
+    mongoose.connect('mongodb://localhost/user_test');
+    mongoose.connection
+        .once('open',()=> {})
+        .on('error', (error) => {
+            console.warn('Warning', error);
+        });
+
+});
+
 
 beforeEach((done)=>{
     mongoose.connection.collections.users.drop(()=>{
