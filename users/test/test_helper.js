@@ -14,9 +14,14 @@ before((done)=>{
 });
 
 
-beforeEach((done)=>{
-    mongoose.connection.collections.users.drop(()=>{
-        //ready to run the next test!
-        done();
-    });
+beforeEach((done)=>{ //some ES6 code
+
+    const {users, comments, blogposts} = mongoose.connection.collections; // get collections from the mongoose
+    users.drop(()=>{
+        comments.drop(()=>{
+            blogposts.drop(()=>{
+                done();
+            })
+        })
+        });
 });
