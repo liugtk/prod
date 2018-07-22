@@ -42,8 +42,8 @@
       <file leaf-file-name="reading_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/test/reading_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -57,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="delete_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/test/delete_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="220">
+              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/test/update_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -102,9 +111,10 @@
         <option value="$PROJECT_DIR$/users/test/test_helper.js" />
         <option value="$PROJECT_DIR$/users/package.json" />
         <option value="$PROJECT_DIR$/users/test/create_test.js" />
-        <option value="$PROJECT_DIR$/users/test/reading_test.js" />
         <option value="$PROJECT_DIR$/users/test/test/delete_test.js" />
         <option value="$PROJECT_DIR$/users/test/delete_test.js" />
+        <option value="$PROJECT_DIR$/users/test/reading_test.js" />
+        <option value="$PROJECT_DIR$/users/test/update_test.js" />
       </list>
     </option>
   </component>
@@ -530,12 +540,12 @@
       <workItem from="1531984138998" duration="1255000" />
       <workItem from="1532186729066" duration="2683000" />
       <workItem from="1532189468091" duration="629000" />
-      <workItem from="1532223275962" duration="3504000" />
+      <workItem from="1532223275962" duration="7001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12003000" />
+    <option name="totallyTimeSpent" value="15500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="932" height="1087" extended-state="0" />
@@ -544,11 +554,11 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18120806" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111854" side_tool="true" weight="0.48261327" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32672232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48261327" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49888143" visible="true" weight="0.48261327" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -565,6 +575,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/users/src/user.js">
@@ -723,6 +738,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/users/test/delete_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users/test/create_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -732,15 +754,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users/test/reading_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="220">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/test/delete_test.js">
+    <entry file="file://$PROJECT_DIR$/users/test/update_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="333">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
         </state>
       </provider>
     </entry>
