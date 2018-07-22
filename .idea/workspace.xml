@@ -24,69 +24,19 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users/src/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="154">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_helper.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/test/test_helper.js">
+      <file leaf-file-name="validation_test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users/test/validation_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="41">
+              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reading_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/test/reading_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/test/create_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/test/delete_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_test.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/users/test/update_test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -107,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/users/src/user.js" />
         <option value="$PROJECT_DIR$/users/test/test_helper.js" />
         <option value="$PROJECT_DIR$/users/package.json" />
         <option value="$PROJECT_DIR$/users/test/create_test.js" />
@@ -115,6 +64,8 @@
         <option value="$PROJECT_DIR$/users/test/delete_test.js" />
         <option value="$PROJECT_DIR$/users/test/reading_test.js" />
         <option value="$PROJECT_DIR$/users/test/update_test.js" />
+        <option value="$PROJECT_DIR$/users/src/user.js" />
+        <option value="$PROJECT_DIR$/users/test/validation_test.js" />
       </list>
     </option>
   </component>
@@ -540,12 +491,12 @@
       <workItem from="1531984138998" duration="1255000" />
       <workItem from="1532186729066" duration="2683000" />
       <workItem from="1532189468091" duration="629000" />
-      <workItem from="1532223275962" duration="7001000" />
+      <workItem from="1532223275962" duration="10058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15500000" />
+    <option name="totallyTimeSpent" value="18557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="932" height="1087" extended-state="0" />
@@ -558,7 +509,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32672232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49888143" visible="true" weight="0.48261327" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49888143" visible="true" weight="0.6975764" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -731,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/src/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users/test/delete_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -752,17 +696,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/users/test/update_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/users/test/reading_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="230">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/test/update_test.js">
+    <entry file="file://$PROJECT_DIR$/users/src/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+        <state relative-caret-position="154">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users/test/validation_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
