@@ -4,6 +4,7 @@ mongoose.Promise = global.Promise; // use he global promise instead of
 
 before((done)=>{
     mongoose.connect('mongodb://localhost/user_test');
+
     mongoose.connection
         .once('open',()=> {done();})
         .on('error', (error) => {
