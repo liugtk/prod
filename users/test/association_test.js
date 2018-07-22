@@ -11,7 +11,7 @@ describe('Associations',()=>{
 
     beforeEach((done)=>{
         joe = new User({name: 'Joe'});
-        blogPost = new BlogPost({title:'JS is Great', content: 'Yep it realy is'});
+        blogPost = new BlogPost({title:'JS is Great', content: 'Yep it really is'});
         comment = new Comment({content: 'Congrats on great post'});
 
         joe.blogPosts.push(blogPost); // although we push the entire instance, mongoose will create the reference
@@ -47,7 +47,10 @@ describe('Associations',()=>{
                }
            })
            .then((user)=>{
-            console.log(user.blogPosts[0].comments[0]);
+            assert(user.name === 'Joe');
+            assert(user.blogPosts[0].title === 'JS is Great');
+            assert(user.blogPosts[0].comments[0].content === 'Congrats on great post');
+            assert(user.blogPosts[0].comments[0].user.name ==='Joe');
             done();
        })
     });
