@@ -28,7 +28,6 @@ describe('Associations',()=>{
             .populate('blogPosts')
             .then((user)=>{
                 assert(user.blogPosts[0].title === 'JS is Great');
-
                 done();
             })
     });
